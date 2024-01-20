@@ -1,0 +1,36 @@
+.pg2{
+    font-family: 'Barlow Condensed', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Titillium Web', sans-serif;
+    margin-left: 6rem;
+}
+.pg2div{
+    margin-top: 100px;
+}
+.pg2Wrapper{
+    display: flex;
+}
+.cardsDiv2{
+    display: flex;
+    flex: 6;
+    flex-wrap: wrap;
+    gap: 10px;
+    overflow-y: scroll;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+::-webkit-scrollbar{
+    width: 10px;
+}
+
+::-webkit-scrollbar-track{
+    width: 10px;
+    background-color: rgb(189, 188, 188);
+}
+
+::-webkit-scrollbar-thumb{
+    width: 10px;
+    background-color: rgb(115, 115, 115);
+}
